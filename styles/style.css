@@ -280,6 +280,19 @@ header {
     width: 100%;
     height: 200px;
     overflow: hidden;
+    background-color: #112240;
+}
+
+.project-image iframe {
+    display: block;
+    /* Render the embedded site at a desktop width, then scale it into the card. */
+    width: 333.333%;
+    height: 333.333%;
+    border: 0;
+    background-color: #112240;
+    pointer-events: none;
+    transform: scale(0.3);
+    transform-origin: top left;
 }
 
 .img-placeholder {
